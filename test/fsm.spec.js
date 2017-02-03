@@ -254,7 +254,7 @@ describe('FSM', () => {
 
             expect(student.redo()).to.be.false;
         });
-
+        
         it('disables redo after changeState call', () => {
             const student = new FSM(config);
 
